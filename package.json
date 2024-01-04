@@ -1,0 +1,23 @@
+{
+  "name": "galvan",
+  "version": "1.0.0",
+  "description": "TextMate bundle for the galvan programming language",
+  "license": "apache2",
+  "contributes": {
+    "languages": [
+      {
+        "id": "galvan",
+        "extensions": [
+          ".galvan"
+        ]
+      }
+    ],
+    "grammars": [
+      {
+        "language": "galvan",
+        "scopeName": "source.galvan",
+        "path": "./galvan.json"
+      }
+    ]
+  }
+}
